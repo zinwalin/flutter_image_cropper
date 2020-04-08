@@ -34,6 +34,6 @@ android {
         disable 'InvalidPackage'
     }
     dependencies {
-        implementation 'com.github.yalantis:ucrop:2.2.4'
+        implementation 'com.github.zinwalin:ucrop:3396fce881b5a9a7cf42bc01e84cf7c06532da1e'
     }
 }
