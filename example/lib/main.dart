@@ -110,13 +110,15 @@ class _MyHomePageState extends State<MyHomePage> {
               CropAspectRatioPreset.ratio16x9
             ],
       androidUiSettings: AndroidUiSettings(
-          toolbarTitle: 'Cropper',
+          toolbarTitle: '头像',
           toolbarColor: Colors.deepOrange,
           toolbarWidgetColor: Colors.white,
-          initAspectRatio: CropAspectRatioPreset.original,
+          initAspectRatio: CropAspectRatioPreset.square,
           lockAspectRatio: false),
       iosUiSettings: IOSUiSettings(
-        title: 'Cropper',
+        title: '头像',
+        cancelButtonTitle: '取消',
+        doneButtonTitle: '完成'
       )
     );
     if (croppedFile != null) {
