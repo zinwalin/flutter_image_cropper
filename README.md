@@ -35,7 +35,7 @@ This project aims to provide an ultimate and flexible image cropping experience.
 
 ````xml
 <activity
-    android:name="com.yalantis.ucrop.UCropActivity"
+    android:name="com.yalantis.zcucrop.UCropActivity"
     android:screenOrientation="portrait"
     android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 ````
